@@ -6,11 +6,185 @@
     <title>Form Apllication</title>
 </head>
 <body>
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
+    <header>
+        <nav>
+            <a href="../index.html">About Me</a>
+            <a href="index.html">Form</a>
+        </nav>
+        <h1>Application Form</h1>
+    </header>
+    <main>
+        <p>Fill in your details</p>
+        <form>
+            <section>
+                <div>
+                    <label for="fname">
+                        <p>First name</p><p>*</p>
+                    </label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter first name" autocomplete="on"><br>
+                </div>
+                <div>
+                    <label for="lname">
+                        <p>Last name</p>
+                        <p>*</p>
+                    </label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter last name" autocomplete="on"><br>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="gender">
+                        <p>Gender</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="gender" name="gender" placeholder="Select gender">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+                <div>
+                    <label for="dob">
+                        <p>Date of Birth</p>
+                        <p>*</p>
+                    </label>
+                    <input type="date" id="dob" name="dob"><br>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="emailadd">
+                        <p>Email Address</p>
+                        <p>*</p>
+                    </label>
+                    <input type="email" id="email" name="email" placeholder="Enter email address" autocomplete="on"><br>
+                </div>
+                <div>
+                    <label for="educ">
+                        <p>Educational Level</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="email" name="email" placeholder="Select level of education">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="country">
+                        <p>Country</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="country" name="country" placeholder="Select your country">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+                <div>
+                    <label for="state/city">
+                        <p>State/City of Residence</p>
+                        <p>*</p>
+                    </label>
+                    <input type="text" id="city" name="city" placeholder="Enter your state of residence" autocomplete="on"><br>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="employment">
+                        <p>Employment Status</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="text" id="employment" name="employment" placeholder="Select employment status">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+                <div>
+                    <label for="tel">
+                        <p>Phone Number</p>
+                        <p>*</p>
+                    </label>
+                    <input type="tel" id="tel" name="tel" placeholder="08154387000" autocomplete="on"><br>
+                </div>  
+            </section>
+            <section>
+                <div>
+                    <label for="school">
+                        <p>Choose School</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="school" name="school" placeholder="Select school" autocomplete="off">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+                <div>
+                    <label for="study">
+                        <p>Choose Course of Study</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="study" name="study" placeholder="Select course" autocomplete="off">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>
+                    </div><br>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label for="about-us">
+                        <p>How did you hear about us?</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="search" id="about-us" name="about-us" placeholder="Select channel" autocomplete="off">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="0.8em" height="0.8em" fill="currentColor" aria-hidden="true">
+                            <path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg>     
+                    </div><br>
+                </div>
+                <div>
+                    <label for="discount/scholarship">
+                        <p>Scholarship/Discount Code (optional)</p>
+                        <p>*</p>
+                    </label>
+                    <div>
+                        <input type="text" id="discount-scholarship" name="discount-scholarship" placeholder="Scholarship or student ID or discount codes">
+                    </div><br>
+                </div>    
+            </section>
+            <section>
+                <p>By clicking continue, I agree to <a href="*">Terms of Use</a> and acknowledge that I have read the <a href="*"> Privacy Policy.</a></p>
+            </section>
+            <section>
+                <div>
+                    <button type="submit">Proceed</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <span><p>Already have an account?</p><a href="*">Sign In</a></span>
+                </div>
+            </section>
+        </form>
+    </main>
 </body>
 </html>
